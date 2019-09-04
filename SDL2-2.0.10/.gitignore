@@ -1,0 +1,4 @@
+# Don't ignore anything within this directory
+# This is to ensure that SDL2 libs don't get ignored
+
+!**
