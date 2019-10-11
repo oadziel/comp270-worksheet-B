@@ -46,7 +46,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="comp270-worksheet-A.rc">
+    <ResourceCompile Include="comp270-worksheet-B.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -54,7 +54,7 @@
     <Image Include="small.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="comp270-worksheet-A.ico">
+    <Image Include="comp270-worksheet-B.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

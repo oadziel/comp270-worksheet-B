@@ -193,10 +193,10 @@ copy /Y "$(SolutionDir)\SDL2_image-2.0.5\lib\x64\*.dll" "$(TargetDir)"</Command>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="comp270-worksheet-A.rc" />
+    <ResourceCompile Include="comp270-worksheet-B.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="comp270-worksheet-A.ico" />
+    <Image Include="comp270-worksheet-B.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
