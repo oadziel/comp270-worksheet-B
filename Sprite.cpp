@@ -31,11 +31,11 @@ Sprite::Sprite(const char* filename, SDL_Renderer* renderer)
 {
 	m_texture = loadTexture(filename, renderer);
 
-	if (m_texture)
-	{
-		// Get size
-		SDL_QueryTexture(m_texture, nullptr, nullptr, &m_width, &m_height);
-	}
+	if (!m_texture)
+		throw SpriteLoadException();
+
+	// Get size
+	SDL_QueryTexture(m_texture, nullptr, nullptr, &m_width, &m_height);
 }
 
 Sprite::~Sprite()
