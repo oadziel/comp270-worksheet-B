@@ -32,10 +32,22 @@ public:
 		return Vector2(x * scalar, y * scalar);
 	}
 
+	// Dot product
+	float dot(const Vector2& other) const
+	{
+		return x * other.x + y * other.y;
+	}
+
+	// Vector magnitude squared
+	float magnitudeSquared() const
+	{
+		return x * x + y * y;
+	}
+
 	// Vector magnitude
 	float magnitude() const
 	{
-		return sqrtf(x * x + y * y);
+		return sqrtf(magnitudeSquared());
 	}
 };
 
